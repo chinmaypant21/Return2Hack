@@ -1,0 +1,56 @@
+body{
+    font-family: Roboto Mono,monospace;
+    display: grid;
+}
+.site-title{
+    text-align: center;
+}
+
+.avatar-image{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.section-separator.is-style-dots:before {
+    content: "\00b7 \00b7 \00b7 \00b7 \00b7 \00b7";
+    color: violet;
+    font-size: 1.5em;
+    letter-spacing: 2em;
+    padding-left: 2em;
+    font-family: serif;
+}
+
+.section-separator{
+    background: none!important;
+    border: none;
+    text-align: center;
+    max-width: none;
+    line-height: 1;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.bottom-footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.buttons-container{
+    display: grid;
+    justify-self: center;
+    grid-gap: 20px;
+    grid-template-columns: max-content max-content;
+}
+
+.button{
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: solid 2px teal;
+    color: teal;
+}
+
+.button:hover{
+    background: teal;
+    color: white;
+}
